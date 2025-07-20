@@ -59,7 +59,10 @@ This backend application allows you to **store, retrieve, update, and delete** P
    git clone https://github.com/yourusername/premier-league-database.git
    cd premier-league-database
    
-Build the project:
+## Getting Started
+
+### Build the project:
+```bash
 ./mvnw clean install
 Configure your database connection in src/main/resources/application.properties.
 Run the app:
@@ -141,4 +144,9 @@ This project is licensed under the MIT License.
 
 ---
 
-Just save this text as `README.md` in your project root folder. That’s it! If you want, I can 
+**Important:**  
+Make sure when you paste it into your README.md file, you keep the triple backticks for code blocks and the pipes `|` in tables exactly as shown.
+
+---
+
+If you want, I can generate the entire README.md content with all sections included, properly formatted, so you can just replace your current README.md file with that. Just ask!
