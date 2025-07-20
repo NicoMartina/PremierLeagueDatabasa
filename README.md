@@ -75,6 +75,7 @@ GET /players?team=Arsenal&position=Forward
 
 POST /players
 Content-Type: application/json
+
 {
 "name": "John Doe",
 "nation": "England",
