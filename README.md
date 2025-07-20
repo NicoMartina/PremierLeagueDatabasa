@@ -140,4 +140,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Would you like me to generate a sample `application.properties` too or a Postman collect
+Just save this text as `README.md` in your project root folder. That’s it! If you want, I 
