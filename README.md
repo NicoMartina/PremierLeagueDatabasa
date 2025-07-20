@@ -75,7 +75,6 @@ GET /players?team=Arsenal&position=Forward
 
 POST /players
 Content-Type: application/json
-
 {
 "name": "John Doe",
 "nation": "England",
@@ -105,19 +104,3 @@ Content-Type: application/json
 "nation": "England"
 // other fields can be updated similarly
 }
-
-### Delete a player
-
-DELETE /players/John Doe
-
----
-
-## Contributing
-
-Feel free to fork the repository, open issues, and submit pull requests for improvements.
-
----
-
-## License
-
-This project is licensed under the MIT License.
