@@ -58,49 +58,23 @@ This backend application allows you to **store, retrieve, update, and delete** P
    ```bash
    git clone https://github.com/yourusername/premier-league-database.git
    cd premier-league-database
-   
+
 ## Getting Started
 
 ### Build the project:
 ```bash
 ./mvnw clean install
-Configure your database connection in src/main/resources/application.properties.
 Run the app:
 ./mvnw spring-boot:run
-The API will be running at:
-http://localhost:8080
 API Endpoints
 
 Method	Endpoint	Description	Query Parameters
 GET	/players	Retrieve players (all or filtered)	team, name, position, nation (optional)
 POST	/players	Add a new player	JSON body with player details
-PUT	/players	Update an existing player	JSON body with updated player
-DELETE	/players/{playerName}	Delete a player by name	Path variable: playerName
-Data Model
-
-Player Entity
-Field	Type	Description
-name	String	Player's name (Primary Key)
-nation	String	Player's nationality
-position	String	Player's position
-age	Integer	Player's age
-matches_played	Integer	Number of matches played
-starts	Integer	Number of starts
-minutes_played	Double	Total minutes played
-goals	Double	Number of goals scored
-assists	Double	Number of assists
-penalties_scored	Double	Number of penalties scored
-yellow_cards	Double	Number of yellow cards
-red_cards	Double	Number of red cards
-expected_goals	Double	Expected goals metric
-expected_assists	Double	Expected assists metric
-team_name	String	Player's team name
-Usage Examples
+Usage Example
 
 Get all players
 GET /players
-Get players by team and position
-GET /players?team=Arsenal&position=Forward
 Add a new player
 POST /players
 Content-Type: application/json
@@ -108,45 +82,18 @@ Content-Type: application/json
 {
   "name": "John Doe",
   "nation": "England",
-  "position": "Midfielder",
-  "age": 25,
-  "matches_played": 30,
-  "starts": 28,
-  "minutes_played": 2500.0,
-  "goals": 5.0,
-  "assists": 7.0,
-  "penalties_scored": 1.0,
-  "yellow_cards": 3.0,
-  "red_cards": 0.0,
-  "expected_goals": 4.5,
-  "expected_assists": 6.0,
-  "team_name": "Arsenal"
+  "position": "Midfielder"
 }
-Update a player
-PUT /players
-Content-Type: application/json
-
-{
-  "name": "John Doe",
-  "team_name": "Arsenal",
-  "position": "Midfielder",
-  "nation": "England"
-  // other fields can be updated similarly
-}
-Delete a player
-DELETE /players/John Doe
-Contributing
-
-Feel free to fork the repository, open issues, and submit pull requests for improvements.
-License
-
-This project is licensed under the MIT License.
 
 ---
 
-**Important:**  
-Make sure when you paste it into your README.md file, you keep the triple backticks for code blocks and the pipes `|` in tables exactly as shown.
+### Important: 
+
+- Make sure you **copy the whole block** including the triple backticks ```  
+- Don’t add or remove any backticks  
+- Put blank lines around code blocks  
+- Your editor should save the file as plain text with `.md` extension  
 
 ---
 
-If you want, I can generate the entire README.md content with all sections included, properly formatted, so you can just replace your current README.md file with that. Just ask!
+If you want, I can send you the full, cleaned-up README.md content again — formatted perfectly so it works without turning everything gray. Would you like me to do that?
