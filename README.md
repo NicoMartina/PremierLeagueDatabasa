@@ -58,6 +58,7 @@ This backend application allows you to **store, retrieve, update, and delete** P
    ```bash
    git clone https://github.com/yourusername/premier-league-database.git
    cd premier-league-database
+   
 Build the project:
 ./mvnw clean install
 Configure your database connection in src/main/resources/application.properties.
@@ -140,4 +141,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Just save this text as `README.md` in your project root folder. That’s it! If you want, I 
+Just save this text as `README.md` in your project root folder. That’s it! If you want, I can 
